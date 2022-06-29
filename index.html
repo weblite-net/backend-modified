@@ -9,40 +9,24 @@
 </head>
 
 <body>
-<style>
-	
-
-	.link{
-	    font-family: Segue;
-	    color: black;
-	background: lightskyblue;
-	padding: 1rem;
-	font-weight: bolder;
-	border-radius: 2rem;
-	transition: all 0.3s ease-in;
-	}
-
-
-	.link:hover{
-	    background: lightcoral;
-
-
-	}
-	
-	
-	
-</style>
    <div class="navbar">
   		<h1 id="head">WEBlite</h1>
-  		<a href="signUp.php" class="link">Signup</a>
+  		<div id="usermenu">
+  			<a href="signUp.php" class="link">Signup</a>
+  			<a href="login.php" class="link">Login</a>
+  		</div>
   	</div>
   	
   <div class="container">
-  	
+  	<div class="row1">
 	<h1 id="text">Weblite provides an interface for editing <br>HTML, CSS and JS on the web seamlessly <br>without having to make any network calls.</h1>
-	<br><br>
-	<button id="open" type="button" onclick="window.open('app.php','_self')">Open Editor</button>
-  	
+	</div>
+	<div class="row1">
+	<img id="mascot" src="globe.png">
+	</div>
+	<div id="divopen">
+		<button id="open" type="button" onclick="window.open('app.php','_self')">Open Editor</button>
+	</div>  	
   </div>
       
 </body>
